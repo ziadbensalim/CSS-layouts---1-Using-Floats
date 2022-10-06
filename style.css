@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -37,7 +38,7 @@ aside {
   background-color: #becdf9;
   border-top: 5px solid #2f60f3;
   border-bottom: 5px solid #2f60f3;
-  padding: 50px 0;
+  padding: 50px 40px;
   width: 500px;
 }
 
@@ -69,6 +70,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -108,6 +110,7 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 :link {
